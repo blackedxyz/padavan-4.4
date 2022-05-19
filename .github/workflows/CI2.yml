@@ -22,9 +22,9 @@ jobs:
       matrix:
         include:
           - build_variant: "mt7621"
-            targets: "CR660x JCG-Q20"
+            targets: "K2P JCG-Q20"
           - build_variant: "mt7621-usb-2"
-            targets: "MI-R3G MI-R3P R2100 RM2100"
+            targets: "K2P MI-R3G MI-R3P R2100 RM2100"
     steps:
       - uses: actions/checkout@v2
       - name: Prepare environment
